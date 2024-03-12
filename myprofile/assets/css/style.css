@@ -437,7 +437,7 @@ section {
 # Skills
 --------------------------------------------------------------*/
 .skills .progress {
-  height: 60px;
+  height: auto; /* Changed from 60px to auto */
   display: block;
   background: none;
   border-radius: 0;
@@ -460,15 +460,16 @@ section {
 
 .skills .progress-bar-wrap {
   background: #dce8f8;
-  height: 10px;
+  height: 20px; /* Adjusted height to fit the new layout */
 }
 
 .skills .progress-bar {
-  width: 1px;
-  height: 10px;
-  transition: 0.9s;
+  width: 100%; /* Changed from 1px to 100% */
+  height: 20px; /* Adjusted height to fit the new layout */
+  transition: width 0.9s; /* Changed transition to affect width only */
   background-color: #149ddd;
 }
+
 
 /*--------------------------------------------------------------
 # Resume
