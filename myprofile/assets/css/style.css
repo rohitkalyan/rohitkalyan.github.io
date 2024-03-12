@@ -532,15 +532,11 @@ section {
 }
 
 
-/*--------------------------------------------------------------
-# Projects
---------------------------------------------------------------*/
-.projects .section-title {
-  text-align: center;
-  padding-bottom: 30px;
-}
 
-.projects .projects-title {
+/*--------------------------------------------------------------
+# Project
+--------------------------------------------------------------*/
+.Project .Project-title {
   font-size: 26px;
   font-weight: 700;
   margin-top: 20px;
@@ -548,14 +544,14 @@ section {
   color: #050d18;
 }
 
-.projects .projects-item {
+.Project .Project-item {
   padding: 0 0 20px 20px;
   margin-top: -2px;
   border-left: 2px solid #1f5297;
   position: relative;
 }
 
-.projects .projects-item h4 {
+.Project .Project-item h4 {
   line-height: 18px;
   font-size: 18px;
   font-weight: 600;
@@ -565,7 +561,7 @@ section {
   margin-bottom: 10px;
 }
 
-.projects .projects-item h5 {
+.Project .Project-item h5 {
   font-size: 16px;
   background: #e4edf9;
   padding: 5px 15px;
@@ -574,19 +570,19 @@ section {
   margin-bottom: 10px;
 }
 
-.projects .projects-item ul {
+.Project .Project-item ul {
   padding-left: 20px;
 }
 
-.projects .projects-item ul li {
+.Project .Project-item ul li {
   padding-bottom: 10px;
 }
 
-.projects .projects-item:last-child {
+.Project .Project-item:last-child {
   padding-bottom: 0;
 }
 
-.projects .projects-item::before {
+.Project .Project-item::before {
   content: "";
   position: absolute;
   width: 16px;
